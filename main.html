@@ -8,62 +8,66 @@
 
 <body>
 	<h1>Signup Form Car</h1>
-	<form action ="/Submit" method="get">
+	<form action ="/submit" method="get">
 		<div>
 			<label for ="name">Name*</label>
-			<input required type="text" name="name" placeholder="Name">
+			<input required type="text" name="name" placeholder="Name"id="#name">
 		</div>
 <br>
 		<div>
 			<label for ="Email">Email*</label>
-			<input required type="email" name="Email" placeholder="Email">
+			<input required type="email" name="Email" placeholder="Email"id="#email">
 		</div>
 <br>
 		<div>
 			<label for ="Gender">Gender*</label>
-			<input required type="radio" name="Gender">
+			<input required type="radio" name="Gender"id="#gender_m">
 			<label for="Male">Male</label>
-			<input required type="radio" name="Gender">
+			<input required type="radio" name="Gender"id="gender_f">
 			<label for="Female">Female</label>
 		</div>
 <br>
 		<div>
+
 			<label for ="Car Brands"">Car Brands*</label>
-			<input type="Car Brands" placeholder="--Please choose an option--"
 			
-			<input type="checkbox"name="Car Brands" id="">
-			<labelfor ="Car Brands">BMW</label>
-			
-				
-		
+
+			<select>
+          <!-- option tag starts -->
+            <option>--Please choose an option--</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Mercedez">Mercedez</option>
+        <!-- option tag ends -->
+        </select>
 		</div>
 <br>
 		<div>
 			<label for ="Age">Age*</label>
-			<input required type="number" name="Age" placeholder ="Age">
+			<input required type="number" name="Age" placeholder ="Age" id=" #age">
 		</div>
 <br>
 		<div>
 			<label for ="DOB">DOB*</label>
-			<input required type="date" name="DOB">
+			<input required type="date" name="DOB"id="#dob">
 		</div>
 <br>
 		<div>
 			<label for ="Phone Number">Phone Number</label>
-			<input type="tel" name="Phone Number">
+			<input type="tel" name="Phone Number" placeholder="xxx-xxx-xxxx"id="#tel">
 		</div>
 <br>
 		<div>
 			<label for ="Password">Password*</label>
-			<input type="password" name="Password" placeholder="Password">
+			<input type="password" name="Password" placeholder="Password"id="#password">
 		</div>
 <br>
 		<div>
 			<label for ="TOS"> I agree to the TOS*</label>
-			<input required type="checkbox" name="TOS">
+			<input required type="checkbox" name="TOS"id="#tos">
 		</div>		
 		<br>
-<button>Submit</button>
+<button>submit</button>
 </body>
 
 </html>
